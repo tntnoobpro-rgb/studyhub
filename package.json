@@ -1,0 +1,7 @@
+{
+  "name": "studyhub-vn", "version": "1.0.0", "private": true,
+  "description": "Nền tảng ôn tập trắc nghiệm, flashcard và ghép cặp",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js", "check": "node --check server.js && node --check public/app.js"},
+  "engines": {"node": ">=22.13.0"},
+  "dependencies": {"express":"^4.21.2", "multer":"^1.4.5-lts.1", "mammoth":"^1.9.0", "pdf-parse":"1.1.1", "xlsx":"^0.18.5", "adm-zip":"^0.5.16"}
+}
